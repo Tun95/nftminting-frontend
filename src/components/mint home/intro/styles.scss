@@ -1,0 +1,59 @@
+.introduction {
+  .content {
+    margin-top: 5%;
+    color: var(--color-white);
+    text-align: center;
+    .header_text {
+      margin-bottom: 25px;
+      max-width: 660px;
+      .header {
+        margin-bottom: 20px;
+        h1 {
+          font-size: 50px;
+          line-height: 55px;
+        }
+      }
+      .text {
+        p {
+          color: var(--color-text);
+        }
+      }
+
+      /*======= MEDIA QUERIES (SMALL DEVICES) =======*/
+      @media screen and (max-width: 520px) {
+        .header {
+          h1 {
+            font-size: 40px;
+          }
+        }
+      }
+      /*======= MEDIA QUERIES (SMALL DEVICES) =======*/
+      @media screen and (max-width: 380px) {
+        .header {
+          h1 {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+    .btns {
+      gap: 15px;
+
+      .main_btn {
+        padding: 13px 0px;
+        width: 150px;
+        border-radius: 8px;
+        gap: 8px;
+      }
+      a {
+        padding: 11px 0px !important;
+      }
+      .watch_btn {
+        .main_btn {
+          background: var(--color-slight-dark-bg);
+          border: 1px solid var(--color-dark-gray);
+        }
+      }
+    }
+  }
+}

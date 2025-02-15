@@ -1,0 +1,92 @@
+.mint_success_form_box {
+  margin: 100px 0px;
+  .mint_success_content_box {
+    width: 500px;
+    color: var(--color-white);
+    border: 1px solid var(--color-green);
+    background-color: var(--color-slight-dark-bg);
+    border-radius: 13px;
+    padding: 20px;
+    .menu_header {
+      text-align: center;
+      flex-direction: column;
+      .mark_icon {
+        background-color: var(--color-light-green);
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+      .head {
+        margin: 15px 0px;
+        margin-bottom: 10px;
+        h2 {
+          color: var(--color-green);
+        }
+      }
+      .text {
+        p {
+          color: var(--color-text-dull);
+        }
+      }
+    }
+    .card {
+      margin-top: 20px;
+      background-color: var(--color-dark-light-bg);
+      border-radius: 12px;
+      padding: 20px;
+      .img {
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 7px;
+        }
+      }
+      .fields {
+        margin-top: 10px;
+        .gen_field {
+          margin-bottom: 8px;
+          .label {
+            color: var(--color-text-dull);
+            font-size: 15px;
+          }
+          &.description {
+            .text {
+              p {
+                color: var(--color-text);
+              }
+            }
+          }
+          &.nft_id {
+            .text {
+              p {
+                color: var(--color-purple);
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .btns {
+      margin-top: 20px;
+      width: 100%;
+      gap: 15px;
+      .main_btn {
+        width: 100%;
+        gap: 10px;
+        padding: 11px 20px;
+      }
+      .left,
+      .right {
+        width: 100%;
+      }
+
+      .left {
+        .main_btn {
+          background: var(--color-dark-light-bg);
+        }
+      }
+    }
+  }
+}

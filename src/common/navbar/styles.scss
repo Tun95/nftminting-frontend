@@ -1,0 +1,30 @@
+.nav_bar {
+  padding: 4px 0px;
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-dark);
+  position: sticky;
+  top: 0;
+  z-index: 1200;
+  .content {
+    padding: 8px 0px;
+    .left {
+      .img {
+        img {
+          width: 25px;
+        }
+      }
+    }
+    .right {
+      .btn {
+        .main_btn {
+          padding: 7px 20px;
+          border-radius: 20px;
+          gap: 8px;
+          .icon {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
