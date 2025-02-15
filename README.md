@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+# Frontend Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the frontend code for [Your Project Name]. Below you will find important information about the project, including API routes, deployment links, and related resources.
 
-Currently, two official plugins are available:
+## API Routes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here are the available API routes for the backend:
 
-## Expanding the ESLint configuration
+- **POST** `/api/mint/store` - to store minted NFT.
+- **get** `/api/users` - .
+- **GET** `/api/users/:id` - Retrieve a specific user by ID.
+- **PUT** `/api/users/:id` - Update a specific user by ID.
+- **DELETE** `/api/users/:id` - Delete a specific user by ID.
+- **POST** `/api/auth/login` - Authenticate a user and return a token.
+- **GET** `/api/posts` - Retrieve a list of posts.
+- **POST** `/api/posts` - Create a new post.
+- **GET** `/api/posts/:id` - Retrieve a specific post by ID.
+- **PUT** `/api/posts/:id` - Update a specific post by ID.
+- **DELETE** `/api/posts/:id` - Delete a specific post by ID.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Deployed Links
 
-- Configure the top-level `parserOptions` property like this:
+- **Deployed API Link**: [https://api.yourproject.com](https://api.yourproject.com)
+- **Deployed Frontend Link**: [https://www.yourproject.com](https://www.yourproject.com)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Loom Video Links
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Demo Video**: [Loom Video Link](https://www.loom.com/share/your-video-id)
+- **Walkthrough Video**: [Loom Video Link](https://www.loom.com/share/your-video-id)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Backend Repository
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+The backend code for this project can be found in the following repository:
+
+- **Backend Repository**: [Backend GitHub Repository](https://github.com/yourusername/backend-repo)
+
+## Getting Started
+
+To get started with the frontend, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/frontend-repo.git
