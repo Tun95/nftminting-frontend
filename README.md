@@ -18,10 +18,13 @@ Here are the available API routes for the backend:
 
 ## Loom Video Links
 
-- **Demo Video**: [Loom Video Link](https://www.loom.com/share/your-video-id)
+- **Demo Video**: https://www.loom.com/share/46515eb8870642fa98b24ce4cacc48a1?sid=6197b0f4-2658-4f18-ad73-a93823d517d3
+                  https://www.loom.com/share/978b03a06fa048bbbbbfe4cf103020f4?sid=d37691a1-366d-42f2-babc-dfce1f23e238
+                  https://www.loom.com/share/adfae85b3a7e4dfb8e768839b5cdb1ba?sid=d3d19806-bba5-4b49-83ab-46a3270c3540
 
 
-- **Walkthrough Video**: [Loom Video Link](https://www.loom.com/share/your-video-id)
+- **Walkthrough Video**: FRONTEND: https://www.loom.com/share/23595d4f479f4737ab0d84579a07d438?sid=ee0e65da-63d1-4013-8408-8129307f9c26
+                         BACKEND: https://www.loom.com/share/68cee63adee74d6eb0a52a03c4db8e30?sid=86726e98-131c-405b-abd0-8c10e3ca4494
 
 ## Backend Repository
 
