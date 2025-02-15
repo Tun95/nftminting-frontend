@@ -7,7 +7,7 @@ This repository contains the frontend code for [Your Project Name]. Below you wi
 Here are the available API routes for the backend:
 
 - **POST** `/api/mint/store` - to store minted NFT.
-- **get** `/api/users` - .
+- **get** `/api/get/` - Retrieve .
 - **GET** `/api/users/:id` - Retrieve a specific user by ID.
 - **PUT** `/api/users/:id` - Update a specific user by ID.
 - **DELETE** `/api/users/:id` - Delete a specific user by ID.
