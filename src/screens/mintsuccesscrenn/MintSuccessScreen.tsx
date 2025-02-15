@@ -22,6 +22,7 @@ function MintSuccessScreen() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
+  
   // Fetch NFT data by ID
   useEffect(() => {
     const fetchNFT = async () => {

@@ -10,6 +10,7 @@ import { generateUniqueId } from "../../../utilities/configs/generateUniqueId";
 import { toast } from "react-toastify";
 import { request } from "../../../base url/BaseUrl";
 import { ErrorResponse, getError } from "../../../utilities/utils/Utils";
+import { useNavigate } from "react-router-dom";
 
 // Initial values
 const initialValues = {
@@ -21,12 +22,14 @@ const initialValues = {
 function MintForm() {
   const { address } = useAccount();
 
+  const navigate = useNavigate();
+
   // Define the `useReadContract` hook for `checkId`
   const { refetch: checkId } = useReadContract({
     address: contractConfig.address,
     abi: contractConfig.abi,
     functionName: "checkId",
-    args: [BigInt(0)], // Initial value, will be overridden when refetching
+    args: [BigInt(0)],
   });
 
   // Define the `useWriteContract` hook for `mintNFT`
@@ -65,6 +68,8 @@ function MintForm() {
       toast.success(storeResponse.data.message);
       resetForm();
       setSubmitting(false);
+
+      navigate(`/success/${nftId}`);
     } catch (error) {
       console.error("Failed to mint NFT:", error);
 
